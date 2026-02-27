@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Exam Performance Prediction</h1>
+    <form action="/" method="post">
+        <label>Gender</label>
+        <select name="gender">
+            <option>male</option>
+            <option>female</option>
+        </select>
+        <label>Race or Ethnicity</label>
+        <select name="race or ethnicity">
+            <option>group A</option>
+            <option>group B</option>
+            <option>group C</option>
+            <option>group D</option>
+            <option>group E</option>
+        </select>
+        <label>Parental Level of Education</label>
+        <select name="parental level of education">
+            <option>bachelor's degree</option>
+            <option>some college</option>
+            <option>master's degree</option>
+            <option>associate's degree</option>
+            <option>high school</option>
+            <option>some high school</option>
+        </select>
+        <label>Lunch Type</label>
+        <select name="lunch type">
+            <option>standard</option>
+            <option>free/reduced</option>
+        </select>
+        <label>Test preparation Course</label>
+        <select name="Test preparation Course">
+            <option>none</option>
+            <option>completed</option>
+        </select>
+        <label>Writing Score out of 100</label>
+        <input type="text" name="writing score out of 100">
+        <label>Reading Score out of 100</label>
+        <input type="text" name="reading score out of 100">
+        <button type="submit">What?</button>
+    </form>
+    <h2>Ur predicted maths score out of 100 is {{ans}}</h2>
+</body>
+</html>
